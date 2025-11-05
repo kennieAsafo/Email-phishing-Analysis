@@ -1,0 +1,45 @@
+Headers
+======================================
+Date:Wed, 01 May 2024 20:04:05 +0000
+Subject: Your Bank Account has been blocked due to unusual activities
+
+To:bob.sanders@corhalitech.com
+From:alerts@chase.com
+
+Reply-To:kellyellin426@proton.me
+
+Return-Path:kellyellin426@proton.me
+
+
+Sender IP:185-70-40-140.
+Resolve Host:protonmail.ch
+
+Message-ID:<i7g9MMh5NtErtaOzQZEp3D-i-u3FWwdo0wY5mhD8Q1vIvv1yeLj-jMWPAn-HP3FugKsucesWSubO0Vns8GRFYG0aH4MyU2paqP6yUnRcgaU=@protonmail.com>
+
+
+URLs  :hxxps(://)dsgo.to/CQECQECnpqY3NDSGtODt9ft2qtxzcXGUveTV5fRYmtYAZsQCnpqY3NDSGtODt9ft2qtxzcXGUveTV5fRYmtYAZsQCQECnpqY3NDSGtODt9ft2qtxzcXGUveTV5fRYmtYAZsQ
+======================================
+
+
+
+
+Artifact Analysis
+======================================
+Sender Analysis: The email claims to be from chase bank but senders mail is not associated with chase bank in anýway
+additionally, the return path and reply to headers are from Proton.me ´domains that are not affiliated to chase bank in anyways 
+
+
+URL Analysis: After performing a url reputatin checkś on urlscan.io and virus total , the url wasnt flagged malicious but it appears to host a credential capture page where PII will be collected and try and log into various users account 
+
+
+Verdict
+======================================
+
+Due to the original senders mail not affliated to chase bank , the mail can be viewed as an impersonation and spoofing of chase bank.
+The replý to and retur to path path are in no waz associated to chase bank bring focus to impersonation and potrntial crdential capture.
+
+Defense Actions
+======================================
+Organnised a  background check and notice the email wasn't sent to any other peerson in the organisation 
+emails containing the url and senders address  and reply path has been blocked from sending Emails to any employee within the orgainisation
+
