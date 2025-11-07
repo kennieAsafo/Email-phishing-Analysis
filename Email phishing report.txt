@@ -26,7 +26,7 @@ URLs  :hxxps(://)dsgo.to/CQECQECnpqY3NDSGtODt9ft2qtxzcXGUveTV5fRYmtYAZsQCnpqY3ND
 Artifact Analysis
 ======================================
 Sender Analysis: The email claims to be from chase bank but senders mail is not associated with chase bank in anýway
-additionally, the return path and reply to headers are from Proton.me ´domains that are not affiliated to chase bank in anyways 
+additionally, The 'Return-Path' domain proton.me is inconsistent with the 'From' domain chase.com. And reply to headers are from Proton.me ´domains that are not affiliated to chase bank in anyways.
 
 
 URL Analysis: After performing a url reputatin checkś on urlscan.io and virus total , the url wasn't flagged malicious 
