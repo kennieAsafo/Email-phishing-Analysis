@@ -29,17 +29,16 @@ Sender Analysis: The email claims to be from chase bank but senders mail is not 
 additionally, the return path and reply to headers are from Proton.me ´domains that are not affiliated to chase bank in anyways 
 
 
-URL Analysis: After performing a url reputatin checkś on urlscan.io and virus total , the url wasnt flagged malicious but it appears to host a credential capture page where PII will be collected and try and log into various users account 
-
+URL Analysis: After performing a url reputatin checkś on urlscan.io and virus total , the url wasn't flagged malicious 
 
 Verdict
 ======================================
 
 Due to the original senders mail not affliated to chase bank , the mail can be viewed as an impersonation and spoofing of chase bank.
-The replý to and retur to path path are in no waz associated to chase bank bring focus to impersonation and potrntial crdential capture.
+The replý to and return to path  are in no way associated to chase bank. Which bring focus to impersonation and potential credential capture.
 
 Defense Actions
 ======================================
 Organnised a  background check and notice the email wasn't sent to any other peerson in the organisation 
-emails containing the url and senders address  and reply path has been blocked from sending Emails to any employee within the orgainisation
+Emails containing the subject "Your Bank Account has been blocked due to unusual activities" , senders  mail of "alerts@chase.com" and reply path "kellyellin426@proton.me" has been blocked from sending Emails to any employee within the orgainisation.
 
